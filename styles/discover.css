@@ -1,0 +1,157 @@
+.background2 {
+	background-color: black;
+}
+
+body {
+    font: 13px / 1.231 Helvetica, Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+
+div {
+	margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+.droite {
+	width: calc(100% - 500px);
+	margin: 0px 0px 0px auto;
+    z-index: 2;
+    min-height: 316px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: inherit;
+    align-items: inherit;
+    padding: calc(32px);
+}
+
+.gauche{
+	width: calc(100% - 500px);
+    z-index: 2;
+    min-height: 316px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: inherit;
+    align-items: inherit;
+    padding: calc(32px);
+}
+
+.milieu {
+	width: calc(100% - 500px);
+    z-index: 2;
+    min-height: 316px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: inherit;
+    align-items: inherit;
+    padding: calc(32px);
+    right: -225px;
+}
+
+.second {
+	padding: 0px;
+}
+
+@media (max-width: 768px) {
+.text1 {
+	font-size: 12px;
+}
+}
+
+.text1 {
+	font-size: 1.5em;
+    line-height: 1.4em;
+    font-weight: lighter;
+    display: inline-block;
+    margin: 16px 0px 0px;
+    color: white;
+}
+
+.first {
+	margin: calc(64px) calc(64px) calc(48px);
+    position: relative;
+    background: linear-gradient(rgb(134, 86, 172), rgb(109, 62, 146));
+}
+
+.first2 {
+	margin: calc(64px) calc(64px) 0px;
+    position: relative;
+    background: linear-gradient(rgb(56, 181, 149), rgb(48, 154, 125));
+}
+
+.first3 {
+	margin: calc(64px) calc(64px) 0px;
+    position: relative;
+    background: linear-gradient(rgb(240, 174, 37), rgb(236, 143, 47));
+}
+
+.first4 {
+	margin: calc(64px) calc(64px) 0px;
+    position: relative;
+    background: linear-gradient(rgb(84, 97, 198), rgb(63, 78, 182));
+}
+
+.first5 {
+	margin: calc(64px) calc(64px) 0px;
+    position: relative;
+	background: linear-gradient(rgb(219, 75, 127), rgb(171, 45, 90));
+}
+
+.first6 {
+	margin: calc(64px) calc(64px) 0px;
+    position: relative;
+	background: linear-gradient(rgb(207 174 140), rgb(189 144 98));
+}
+
+.img {
+	position: absolute;
+	left: -90px;
+	bottom: -4px;
+}
+
+.img2 {
+	position: absolute;
+	right: -40px;
+	bottom: -5px;
+}
+
+.img3 {
+	position: absolute;
+	right: 0px;
+	bottom: -4px;
+}
+
+.img4 {
+	position: absolute;
+	left: 0px;
+	bottom: -4px;
+}
+
+.img5 {
+	position: absolute;
+	right: -15px;
+	bottom: -4px;
+}
+
+.img6 {
+	position: absolute;
+	left: 0px;
+	bottom: -4px;
+}
+
+.img7 {
+	position: absolute;
+	right: 0px;
+	bottom: -4px;
+}
